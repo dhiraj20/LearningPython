@@ -70,5 +70,58 @@ b = 3
 
 # print(5 < 1 < 4)
 
-print('appal' < 'apple')
+# print('appal' < 'apple')
 
+a = 15
+b = 9
+c = 20
+
+# if a > b and a > c:
+#     # block of code will execute
+#     print("a is greater among all three number")
+# else:
+#     print("a is not greatest among all three number")
+
+# if a > b or a > c:
+#     print("a is greater than b or c")
+# else:
+#     print("a is not greater than b or c")
+
+# phone_number
+# first name
+# phone_number = 798759 # not false => True
+# if not phone_number:
+#     print("Phon number should not be empty")
+
+# phone_number = 10
+
+# salary = 15
+
+# print(id(phone_number))
+# print(id(salary))
+
+# print('phone_number' , phone_number is number)
+# print('phone_number sal' , phone_number is not salary)
+
+# a = 5
+# b = 10
+# print(a == b)
+
+# list = [1,2,3,4,5]
+# print(2 in list) # True
+# print(6  not in list) # False
+
+# tup = ('apple', 'ball', 'cat')
+# print('cat' in tup)
+# print('dog' in tup)
+
+# person = {
+#     'name': 'Dhiraj',
+#     'salary': 2378,
+#     'address': 'Brt'
+# }
+# print('name' in person)
+# print('address' not in person)
+
+print(~3)
+print(~5)

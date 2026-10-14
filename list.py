@@ -128,5 +128,43 @@
 
 
 ## Repetition 
-fruits = ['Apple', 'ball']
-print(fruits * 3) # ['Apple', 'ball', 'Apple', 'ball', 'Apple', 'ball']
+# fruits = ['Apple', 'ball']
+# print(fruits * 3) # ['Apple', 'ball', 'Apple', 'ball', 'Apple', 'ball']
+
+## len --> returns the number of items in the list
+# fruits = ['Apple', 'ball', 'Apple', 'ball', 'Apple', 'ball']
+# print(len(fruits))
+
+## Membership operator --> It checks an item exists in a list or not
+# fruits = ['Apple', 'Banana', 'Mango', 'Coconut', 'Grapes']
+# print('Apple' in fruits)
+
+# numbers = [1,2,3,4,5,6] 
+# new_list = []
+#  [2,4,6,8,10,12]
+# for item in numbers:
+#     new_list.append(item * 2)
+# print(new_list)
+
+
+
+## List comprehension --> simple way of creating a list or one liner way of creating list 
+# numbers = [1,2,3,4,5,6] 
+# new_list = [item * 2 for item in numbers]
+# print(new_list)
+
+
+
+# numbers = [1,2,3,4,5,6] 
+# new_list = []
+# for item in numbers:
+#     if item % 2 != 0:
+#         new_list.append(item) # [1,3,5]
+
+# print(new_list)
+
+numbers = [1,2,3,4,5,6] 
+new_list = [item * 2  for item in numbers if item % 2 == 0]
+print(new_list)
+
+## reverse, sort

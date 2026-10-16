@@ -108,8 +108,15 @@ B = {3,5,6,7,8,9}
 # print("A values", A)
 # print("B values", B)
 
-A = {1,2, 3 ,4, 5 }
-B = {3,5,  6,7,8,9}
-A.symmetric_difference_update(B) # A = A ^ B
-print("A values", A)
-print("B values", B)
+# A = {1,2, 3 ,4, 5 }
+# B = {3,5,  6,7,8,9}
+# A.symmetric_difference_update(B) # A = A ^ B
+# print("A values", A)
+# print("B values", B)
+
+# Set comprehension 
+A = {1,2,3,4}
+
+# new_set = { item* 2 for item in A }
+new_set = { item* 2 for item in A if item > 2} #{2,4,6,8
+print(new_set)
